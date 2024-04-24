@@ -1,4 +1,4 @@
-# 📅 👨‍💻 Versionamento de Código em Git e GitHub:
+# 👨‍💻 Versionamento de Código em Git e GitHub:
 
 *Repositório criado para gravar as anotações do Curso de Git & GitHub*
 
