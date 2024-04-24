@@ -1,11 +1,6 @@
-# 📅 DIO | Bootcamp - Santander | Anotações
+# 📅 👨‍💻 Versionamento de Código em Git e GitHub:
 
-Este repositório foi criado para armazenar todas as anotações, resumos, etc... Sobre o que foi passado de acordo com o Bootcamp.
-
-## 🧠 1 - Princípios de Desenvolvimento de Software Colaborativo
-
-
-#### 👨‍💻 Versionamento de Código em Git e GitHub:
+*Repositório criado para gravar as anotações do Curso de Git & GitHub*
 
 **O que é versionamento de código?**
 
