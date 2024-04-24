@@ -10,7 +10,10 @@ Este repositório foi criado para armazenar todas as anotações, resumos, etc..
 **O que é versionamento de código?**
 
 ```
-É um Sistema que controla todas as versões do seu código principal, como por exemplo, podemos pegar o código-fonte principal(main) e cada um trazer para a sua máquina local, com isso iremos salvando as atualizações e depois mesclando, sem atrapalhar um ao outro ou ter que depender do mesmo.
+É um Sistema que controla todas as versões do seu código principal, como por exemplo,
+podemos pegar o código-fonte principal(main) e cada um trazer para a sua máquina local,
+com isso iremos salvando as atualizações e depois mesclando, sem atrapalhar um ao outro,
+ou ter que depender do mesmo.
 ```
 
  **Tipos de Sistema de Controle de Versão:**
@@ -27,7 +30,8 @@ Este repositório foi criado para armazenar todas as anotações, resumos, etc..
 **O que é Git?**
 
 ```
-É um sistema de controle de versão distribuído, gratuito e open source, capaz de criar ramificações(branchings) e fusões(merging) eficientes. Além de ser leve e rápido.
+É um sistema de controle de versão distribuído, gratuito e open source, capaz de criar
+ramificações(branchings) e fusões(merging) eficientes. Além de ser leve e rápido.
 ```
 
 **Configurando o Git**
@@ -65,7 +69,7 @@ $ git init
 **Crie um repositório(de preferência com o mesmo nome) no GitHub e copie o link HTTPS, vamos conectar o repositório remoto com o local**
 
 ```
-$ git remote add origin https://github.com/gustavocarmomendes/Athlete-Registration-And-Visualization-Project.git
+$ git remote add origin link-do-repositório
 ```
 
 **Após fazer qualquer alteração no projeto, veja o status com**
