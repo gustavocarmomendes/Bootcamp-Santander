@@ -81,7 +81,7 @@ $ git status
 **Caso tenha informações que ainda não foram publicadas, utilize**
 
 ```
-& git add .
+$ git add .
 ```
 
 *O "." é utilizado para adicionar todas as informações diretas, sem precisar adicionar item por item.*
