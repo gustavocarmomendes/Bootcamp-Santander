@@ -32,7 +32,7 @@ ramificações(branchings) e fusões(merging) eficientes. Além de ser leve e r�
 **Configurando o Git**
 
 ```
-$ git config --list
+$ git config
 ```
 
 **Configurando seu nome de usuário e e-mail (globalmente)**
