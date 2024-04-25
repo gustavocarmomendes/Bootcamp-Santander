@@ -47,8 +47,36 @@ $ git config --global user.email gustavosmensey@gmail.com
 ```
 $ git config --global init.defaultBranch main
 ```
-
 *Normalmente por padrão a Branch padrão se chama Master, porém atualmente estão utilizando mais o nome "Main", por isso fizemos esta modificação.*
+
+**Configurando o acesso no Git**
+
+*Para fazer isso você pode tentar clonar um repositório seu com:*
+
+```
+$ git clone link-repositório
+```
+
+*Com isso ele vai pedir seu usuario do github, após inserir ele vai pedir uma senha, na qual temos que criar um token para isso*
+
+```
+Perfil -> Settings -> Developer Settings -> Personal acess Token ->
+Tokens (classic) - > Generate new token -> Generate new token (classic)
+```
+*Ali você irá definir o nome do seu token, o tempo que deseja que ele fique ativo e as permissões que aquele token terá.*
+
+**Para salvar seu token no Git, existem duas formas**
+
+Caso divida o computador com alguém e queira deixar salvo temporariamente utilize:
+```
+$ git config --global credential.helper cache
+```
+Caso não divida o computador com ninguém e queira salvar permanentemente, utilize:
+
+```
+$ git config --global credential.helper store
+```
+
 
 **Criando Repositório**
 
@@ -114,6 +142,86 @@ $ git reset --hard
 ```
 
 *Só utilize o último caso precise utilizar como se fosse um Backup, pois irá trazer a última versão e as atualizações que você teria feito, não existirá mais.*
+
+**Para trazer os commits do repositório remoto para o local, utilize:**
+```
+$ git pull
+```
+
+**Para enviar os commits feitos no repositório local para o servidor, utilize:**
+
+```
+$ git push
+```
+
+***CRIANDO RAMIFICAÇÕES (BRANCHS)***
+
+**Para criar uma Branch da verão principal**
+
+```
+$ git checkout -b nome-branch
+```
+
+**Para voltar para a Branch principal (Main), use:**
+
+```
+$ git checkout nome-da-main
+```
+
+*Lembrando que a main tem como nome padrão Master, porém utilizamos no curso como main, e isso pode alterar dependendo da Empresa*
+
+**Mostra todos os últimos commits feitos por cada branch, desde a principal às ramificações**
+
+```
+$ git branch -v
+```
+
+**Utilizamos esse código para mesclar com a branch principal**
+
+```
+$ git merge nome-da-branch
+```
+
+**Mostra todas as Branchs criadas naquele repositório**
+
+```
+$ git branch
+```
+
+**Exclui a branch**
+
+```
+$ git branch -d nome-branch
+```
+
+**Utilizando caso você deseja clonar essa Branch do repositório
+remoto no repositório local**
+
+```
+$ git clone link-https --branch nome-branch --single-branch
+```
+
+**Caso esteja mexendo no repositório local e alguém enviou um commit para o servidor, utilize isso (opcional)**
+
+*Traz os commits feito no nosso repositório remoto porém não mescla com o nosso repositório
+local.*
+
+```
+$ git fetch origin main
+```
+
+*Mostra o conteudo commitado no repositório remoto*
+
+```
+$ git diff main origin/main
+```
+
+*Mescla o conteudo que você trouxe comitado, com o seu repositório local*
+
+```
+$ git merge origin/main
+```
+
 
 ## 🔍 Referências
 - [Digital Innovation One](https://www.dio.me)
