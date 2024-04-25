@@ -42,7 +42,7 @@ $ git config --global user.name "Gustavo do Carmo Mendes"
 $ git config --global user.email gustavosmensey@gmail.com
 ```
 
-**Configurando o nome da Branch padrão**
+**Configurando o nome da Branch principal**
 
 ```
 $ git config --global init.defaultBranch main
