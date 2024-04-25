@@ -16,11 +16,11 @@
 
 ## ☕ 2 - Dominando a Linguagem de Programação Java
 
-- 👨‍🎓 [Ambiente de Desenvolvimento Java]()
+- 🚪 [Ambiente de Desenvolvimento Java]()
 
-- ☕ [Aprendendo a Sintaxe Java]()
+- 🚨 [Aprendendo a Sintaxe Java]()
 
-- 🐱 [Simulando Uma Conta Bancária Através Do Terminal/Console]()
+- 💸 [Simulando Uma Conta Bancária Através Do Terminal/Console]()
 
 - 💻 [Introdução e Estruturas Condicionais com Java]()
 
