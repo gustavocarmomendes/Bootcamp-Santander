@@ -37,7 +37,7 @@
 - 🚦 [Condições, Loops e Exceções na Prática com Java]()
 
 
-## 🔍 Referências
+## 🔍 Referên
 - ****[Digital Innovation One](https://www.dio.me)****
 - ****[Instrutora do Curso de Git - Elidiana Andrade](https://github.com/elidianaandrade)****
 - ****[Informações retiradas do Repositório](https://github.com/elidianaandrade/dio-curso-git-github)****
