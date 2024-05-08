@@ -4,11 +4,9 @@
 
 ## 🧠 1 - Princípios de Desenvolvimento de Software Colaborativo
 
-- ☕ [Introdução à Plataforma Java](https://github.com/gustavocarmomendes/Bootcamp-Santander/blob/main/1%20-%20Princ%C3%ADpios%20de%20Desenvolvimento%20de%20Software%20Colaborativo/2%20-%20Introdu%C3%A7%C3%A3o%20%C3%A0%20Plataforma%20Java.md)
+- 🐱 [Resumo de Versionamento de Código com Git e GitHub](https://github.com/gustavocarmomendes/Bootcamp-Santander/blob/main/1%20-%20Princ%C3%ADpios%20de%20Desenvolvimento%20de%20Software%20Colaborativo/3%20-%20Versionamento%20de%20C%C3%B3digo%20com%20Git%20e%20GitHub.md)
 
-- 🐱 [Versionamento de Código com Git e GitHub](https://github.com/gustavocarmomendes/Bootcamp-Santander/blob/main/1%20-%20Princ%C3%ADpios%20de%20Desenvolvimento%20de%20Software%20Colaborativo/3%20-%20Versionamento%20de%20C%C3%B3digo%20com%20Git%20e%20GitHub.md)
-
-- 💼 [Contribuindo em um Projeto Open Source no GitHub](https://github.com/gustavocarmomendes/Bootcamp-Santander/blob/main/1%20-%20Princ%C3%ADpios%20de%20Desenvolvimento%20de%20Software%20Colaborativo/5%20-%20Contribuindo%20em%20um%20Projeto%20Open%20Source%20no%20GitHub.md)
+- 💼 [Contribuindo em um Projeto Open Source no GitHub](https://github.com/gustavocarmomendes/dio-lab-open-source)
 
 ## ☕ 2 - Dominando a Linguagem de Programação Java
 
